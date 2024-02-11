@@ -119,7 +119,6 @@ const calculate = (data) => {
 
 const handleSubmit = (e) => {
   clearResults()
-  previousRecords = []
 
   const formData = Object.fromEntries(new FormData(e.target))
 
@@ -171,6 +170,6 @@ const clearResults = () => {
 const clearForm = () => {
   form.name = ''
   form.operators = ['', '', '']
-  errors = {}
+  errors = reactive({})
 }
 </script>
