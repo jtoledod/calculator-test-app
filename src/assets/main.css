@@ -1,0 +1,9 @@
+@import './base.css';
+
+nav .router-link-active {
+  @apply text-indigo-500;
+}
+
+.container {
+  @apply mx-auto max-w-3xl px-4;
+}

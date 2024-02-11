@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+:root {
+  color-scheme: dark light;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-family: 'Onest Variable', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+table tr,
+table td,
+table th {
+  border: 0;
+}
